@@ -12,10 +12,10 @@ export default function Home() {
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-BW1B7E576Y"></script>
         <script>
           window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
+          function gtag(){dataLayer.push(arguments)&#59;}
+          gtag('js', new Date())&#59;
 
-          gtag('config', 'G-BW1B7E576Y');
+          gtag('config', 'G-BW1B7E576Y')&#59;
         </script>
       </Head>
 
