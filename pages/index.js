@@ -8,6 +8,16 @@ export default function Home() {
       <Head>
         <title>Has the war startet yet?</title>
         <link rel="icon" href="/favicon.ico" />
+       
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-BW1B7E576Y"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'G-BW1B7E576Y');
+        </script>
       </Head>
 
       <main>
