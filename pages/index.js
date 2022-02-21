@@ -9,14 +9,22 @@ export default function Home() {
         <title>Has the war startet yet?</title>
         <link rel="icon" href="/favicon.ico" />
        
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-BW1B7E576Y"></script>
-        <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments)&#59;}
-          gtag('js', new Date())&#59;
-
-          gtag('config', 'G-BW1B7E576Y')&#59;
-        </script>
+        <script
+            async
+            src={`https://www.googletagmanager.com/gtag/js?id=G-BW1B7E576Y`}
+          />
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-BW1B7E576Y', {
+              page_path: window.location.pathname,
+            });
+          `,
+            }}
+          />
       </Head>
 
       <main>
