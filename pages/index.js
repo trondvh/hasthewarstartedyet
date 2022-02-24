@@ -28,8 +28,7 @@ export default function Home() {
       </Head>
 
       <main>
-        <Header title="Nope - Don't run, we are your friends!" />
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/_vUrAMxmO_A?controls=0&loop=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <Header title="Yes" />
       </main>
 
     </div>
